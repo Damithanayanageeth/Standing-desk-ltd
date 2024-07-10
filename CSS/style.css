@@ -34,7 +34,6 @@
   
 .dropdown {
     float: left;
-    overflow-anchor: hidden;
 }
 
 .dropdown:hover .dropdown-set {
