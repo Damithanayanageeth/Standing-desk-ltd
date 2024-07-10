@@ -120,7 +120,6 @@ div.Grid2 img {
 }
 
 .footer {
-    position: none;
     background-color: black;
     color: white;
     text-align: center;
@@ -366,14 +365,10 @@ a {
 }
 
 .vd1 {
-    position: inline;
     top: 4px;
     padding-left: 8px;
     background-color: gold;
 }
 
-.mq1 {
-
-}
 /* Cart */
 
