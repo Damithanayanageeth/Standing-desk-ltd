@@ -1,0 +1,375 @@
+/* Home page */
+.Logo{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #410101;
+}
+  
+.nav a {
+    float: left;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow-anchor: hidden;
+}
+
+.dropdown:hover .dropdown-set {
+    display: block;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 10px;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+  
+.nav a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 0, 0);
+}
+  
+.dropdown-set {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+}
+  
+.dropdown-set a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-set a:hover {
+    background-color: #ff0000;
+}
+  
+.dropdown:hover .dropdown-set {
+    display: block;
+}
+
+.P1 {
+    text-align: center;
+}
+
+.parah1 {
+    text-align: center;
+    background-color: bisque;
+    font-size: large;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.para1 {
+    text-align: justify;
+    background-color: bisque;
+    font-size: large;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+div.Grid {
+    border:0 1px;
+}
+
+div.Grid img {
+    width: 100%;
+    height: auto;
+}
+
+div.Grid2 {
+    border:0 1px;
+}
+
+div.Grid2 img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    position: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;   
+}
+
+.resposive {
+    padding:0 0px;
+    float: left;
+    width: 50%;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mm {
+    margin: 10px 6px;
+    background: #410101;
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.mmh {
+    margin: 10px 6px;
+    background: #410101;
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.ci {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    margin: 13px 10px;
+    padding: 10px;
+}
+
+.cl-facebook {
+    width: 20px;
+    height: 20px;
+    background: #0b03fe;
+    color: white;
+    margin: 15px 7px;
+}
+
+.cl-Youtube {
+    width: 20px;
+    height: 20px;
+    background: #ff0101;
+    color: white;
+    margin: 15px 7px;
+}
+
+.cl-Instagram {
+    width: 20px;
+    height: 20px;
+    background: #ff00ee;
+    color: white;
+    margin: 15px 7px;
+}
+
+.cl-Linkedin {
+    width: 20px;
+    height: 20px;
+    background: #6b8ef5;
+    color: white;
+    margin: 15px 7px;
+}
+
+.cl-Whatsapp{
+    width: 20px;
+    height: 20px;
+    background: #00fe0d;
+    color: white;
+    margin: 15px 7px;
+}
+
+.cl-tiktok {
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    color: white;
+    margin: 15px 7px;
+    border: #ff0000;
+}
+
+/* Product */
+.pp1 {
+    background-color: rgb(247, 229, 129);
+    font-size: x-large;
+    color: #ff0000;
+    text-align: center;
+    padding: 0px;
+}
+
+.search-bar {
+    text-align: left;
+}
+
+.ph1 {
+    background-color: gold;
+    font-size: x-large;
+    padding: 7px;
+}
+
+div.gal img {
+    width: 100%;
+}
+ 
+div.gal:hover{
+    background-color: #ffffff;
+}
+
+.responsive1 {
+    padding: 0 8px;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 11%;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+    border: 2px solid #555555;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.adb1 {
+    align-items: center;
+    text-align: center;
+}
+
+.btn1:hover {
+    background-color: red;
+    color: white;
+}
+
+.t1 {
+    text-align: center;
+    font-size: large;
+}
+
+.price {
+    text-align: center;
+    font-size: medium;
+}
+
+.cb1 {
+
+}
+
+/* Contact Us */
+.form-right {
+    display: flex;
+    background-color: rgb(2, 2, 68);
+    color: white;
+    gap: 5px;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ch1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+
+.sub {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    padding: 4px;
+}
+
+/* Health Benefits */
+.ahd{
+    background-color: rgb(253, 253, 101);
+    text-align: left;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.phb1 {
+    background-color: rgb(253, 253, 101);
+    text-align: center;
+    padding-left: 10px;
+    font-size: large; 
+}
+
+.ap1 {
+    background-color: rgb(196, 196, 196);
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.vd1 {
+    position: inline;
+    top: 4px;
+    padding-left: 8px;
+    background-color: gold;
+}
+
+.mq1 {
+
+}
+/* Cart */
+
