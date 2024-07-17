@@ -318,7 +318,7 @@ a {
 .form-right {
     display: flex;
     background-color: #b3f2a6;
-    color: white;
+    color: black;
     gap: 5px;
     align-items: start;
     flex-direction: column;
@@ -330,7 +330,7 @@ a {
     padding-left: 10px;
     font-size: medium;
     background-color: black;
-    color: Black;
+    color: white;
 }
 
 .sub {
