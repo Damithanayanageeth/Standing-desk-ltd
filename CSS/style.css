@@ -317,7 +317,7 @@ a {
 /* Contact Us */
 .form-right {
     display: flex;
-    background-color: rgb(83, 83, 146);
+    background-color: #b3f2a6;
     color: white;
     gap: 5px;
     align-items: start;
@@ -343,7 +343,7 @@ a {
 .ct01 {
     margin-right: center;
     display: block;
-    background-color:  rgb(83, 83, 146);
+    background-color:  #b3f2a6;
 }
 
 /* Health Benefits */
